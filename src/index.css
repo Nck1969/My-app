@@ -277,13 +277,6 @@ h2 {
     letter-spacing: 2.1px;
   }
 }
-/* .item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  user-select: none;
-  
-} */
 .pic-welcome1024 {
   position: absolute;
   right: -6666px;
@@ -869,7 +862,8 @@ span {
 }
 .slide-video {
   position: relative;
-  width: 452px;
+  max-width: 452px;
+  min-width: 452px;
   height: 254px;
 }
 @media (max-width: 1025px) {
@@ -902,8 +896,8 @@ span {
 .scroll {
   position: absolute;
   left: 620px;
-  top: 1310px;
-  width: 200px;
+  top: 310px;
+  width: 100px;
   height: 12px;
   display: flex;
   flex-direction: row;
@@ -1004,6 +998,17 @@ span {
     left: 680px;
     height: 1221px;
   }
+}
+
+.png1 {
+  opacity: 1;
+}
+
+.png1:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  opacity: 0.8;
 }
 .slide-in {
   opacity: 0;
